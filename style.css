@@ -14,16 +14,17 @@
 
 }
 
-.container>div {
+.container div {
 
     flex-grow: 1;
     border: 1px solid black;
     aspect-ratio: 1 / 1;
+    
  
           
 }
 
-.container>div:nth-child(10n) {
+.container div:nth-child(10n) {
 
     width: 100%;
     border: 0;
