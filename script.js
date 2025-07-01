@@ -11,7 +11,9 @@ for (let i = 0; i < (inputWidth * inputWidth) - inputWidth; i++) {
     const selected = document.querySelectorAll(`.container div:nth-child(${inputWidth}n)`);
  
 selected.forEach(item => {
-    selected.style.width = '100%';
+    item.style.width = '100%';
+    item.style.border = '0';
+    item.style.height = '0';
  });
 
     box.addEventListener('mouseover', function() {
